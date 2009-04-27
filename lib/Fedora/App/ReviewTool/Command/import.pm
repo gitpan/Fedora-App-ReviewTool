@@ -25,6 +25,7 @@ use MooseX::Types::Path::Class ':all';
 
 use File::Slurp;
 use IO::Prompt;
+use IPC::System::Simple;
 use Path::Class;
 use URI::Fetch;
 
@@ -40,7 +41,7 @@ with 'Fedora::App::ReviewTool::Bugzilla';
 with 'Fedora::App::ReviewTool::Bodhi';
 with 'Fedora::App::ReviewTool::Submitter';
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 sub _sections { qw{ bugzilla fas } }
 

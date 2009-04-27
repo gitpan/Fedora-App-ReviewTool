@@ -11,7 +11,7 @@ use namespace::clean -except => 'meta';
 # debug
 #use Smart::Comments;
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 ##
 ## Base attributes

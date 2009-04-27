@@ -30,6 +30,7 @@ requires 'File::Slurp';
 requires 'File::Temp';
 requires 'FindBin';
 requires 'IO::Prompt';
+requires 'IPC::System::Simple';
 requires 'Path::Class';
 requires 'Readonly';
 requires 'LWP::Simple';

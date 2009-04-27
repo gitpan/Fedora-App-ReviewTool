@@ -20,7 +20,7 @@ use namespace::clean -except => 'meta';
 # debugging
 #use Smart::Comments;
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 # we don't actually use this yet
 #with 'MooseX::Role::XMLRPC::Client' => {

@@ -1,5 +1,9 @@
 Revision history for Fedora-App-ReviewTool
 
+0.08 Sun Apr 26 2009
+- use IPC::System::Simple; autodie will autoload this but we need to make sure
+  it's pulled in by rpm
+
 0.07 Sat Apr 25 2009
 - Major changes: add initial review bits; better upload/etc; more status
   information given.

@@ -23,7 +23,7 @@ extends 'Fedora::Bugzilla::Bug';
 
 use namespace::clean -except => 'meta';
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 my @defaults = (
     traits     => [ 'CascadeClear' ],

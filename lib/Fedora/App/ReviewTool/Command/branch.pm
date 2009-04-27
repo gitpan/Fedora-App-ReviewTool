@@ -33,7 +33,7 @@ with 'Fedora::App::ReviewTool::Bugzilla';
 with 'Fedora::App::ReviewTool::Config';
 with 'Fedora::App::ReviewTool::Submitter';
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 # regexps that if the rpm name matches, an initial_cc entry is added
 my %INITIAL_CC = (

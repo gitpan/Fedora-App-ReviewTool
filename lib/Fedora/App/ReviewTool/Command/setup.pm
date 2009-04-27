@@ -33,7 +33,7 @@ with 'Fedora::App::ReviewTool::Submitter';
 # debugging
 #use Smart::Comments '###', '####';
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 sub _sections { }
 

@@ -28,7 +28,7 @@ use Regexp::Common;
 
 use namespace::clean -except => 'meta';
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 has remote_loc => (
     traits        => [ 'Getopt' ],

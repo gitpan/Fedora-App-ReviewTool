@@ -29,7 +29,7 @@ use Template;
 
 use namespace::clean -except => [ 'meta', 'section_data' ];
 
-our $VERSION = '0.07';
+our $VERSION = '0.08';
 
 extends qw{ MooseX::App::Cmd };
 
