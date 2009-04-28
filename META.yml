@@ -53,4 +53,4 @@ requires:
   namespace::clean: 0
 resources:
   license: http://opensource.org/licenses/lgpl-license.php
-version: 0.08
+version: 0.09

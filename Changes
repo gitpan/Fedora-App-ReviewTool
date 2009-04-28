@@ -1,5 +1,8 @@
 Revision history for Fedora-App-ReviewTool
 
+0.09 Mon Apr 27 2009
+- remove an oversight
+
 0.08 Sun Apr 26 2009
 - use IPC::System::Simple; autodie will autoload this but we need to make sure
   it's pulled in by rpm

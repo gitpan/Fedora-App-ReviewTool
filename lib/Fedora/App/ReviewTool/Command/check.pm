@@ -38,7 +38,7 @@ with 'Fedora::App::ReviewTool::Submitter';
 # debugging
 #use Smart::Comments '###', '####';
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 sub _sections { qw{ base bugzilla koji submit } }
 

@@ -41,7 +41,7 @@ with 'Fedora::App::ReviewTool::Bugzilla';
 with 'Fedora::App::ReviewTool::Bodhi';
 with 'Fedora::App::ReviewTool::Submitter';
 
-our $VERSION = '0.08';
+our $VERSION = '0.09';
 
 sub _sections { qw{ bugzilla fas } }
 

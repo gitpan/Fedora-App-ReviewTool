@@ -239,7 +239,9 @@ Error!
 
 cmd:    $cmd
 error:  $?
-Output: $output
+Output: 
+
+$output
 ";
     }
 

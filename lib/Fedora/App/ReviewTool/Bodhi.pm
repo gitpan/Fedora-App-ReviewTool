@@ -151,9 +151,9 @@ sub _build__packagers {
     my $uri = URI->new('https://admin.fedoraproject.org/accounts/group/dump/packager');
 
     $uri->query_form(
-        user_name => 'cweyl', 
-        password => 'ras5twaydkissErdirs',
-        login    => 'Login',
+        user_name => $self->fas_userid, 
+        password  => $self->fas_passwd, 
+        login     => 'Login',
     );
 
     ### hrm: "$uri"
